@@ -1,0 +1,167 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+           /* header-section */
+
+header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.header-section{
+    text-align: right;
+    padding: 130px 200px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin: 60px 0 20px 600px;
+}
+.header-discription{
+    margin: 50px 0 20px 600px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contact-btn{
+    color: white;
+    background: rgb(246, 93, 38);
+    border-radius: 5px;
+    border: 1px solid rgb(246, 93, 38);
+    padding: 15px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+                      /* first-section */
+
+.first-section{
+    display: flex;
+    align-items: center;
+    margin: 80px 160px;
+}
+.my-failures-part{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.my-failures-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.my-failures-part p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.fa-solid{
+    color: #16D887;
+}
+
+                        /* second-section */
+
+.second-section{
+    margin: 100px 180px;
+    text-align: center;
+}
+.my-plan-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.my-plan-steps{
+    display: flex;
+    justify-content: space-around;
+}
+.my-plan-steps h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.my-plan-steps p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 10px;
+}
+
+                            /* third-section */
+
+.third-section{
+    margin: 100px 200px;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 300px;
+}
+.third-section-title{
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    padding: 40px 500px 20px 40px;
+}
+.call-now-btn{
+    color: rgb(246, 93, 38);
+    border: 1px solid rgb(246, 93, 38);
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: white;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+                                /* footer-section */
+
+.footer-section{
+    display: flex;
+    background-color: black;
+    height: 500px;
+}
+.future-part{
+    width: 50%;
+    margin: 150px 200px;
+}
+.future-part h2{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.future-part p{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.subscribe-part{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.subscribe-title{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.email-put{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 80px 15px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.subscribe-btn{
+    color: #F15B22;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+}
