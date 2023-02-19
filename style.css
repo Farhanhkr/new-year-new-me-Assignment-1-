@@ -59,6 +59,41 @@ header{
     color: #16D887;
 }
 
+                        /* my-section */
+
+.my-section{
+    display: flex;
+    align-items: center;
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.about-me-part{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.hi-am-title{
+    font-weight: 600;
+    font-size: 40px; 
+}
+.about-me-part h2{
+    font-weight: 700;
+    font-size: 65px; 
+}
+.web-dev-title{
+    font-size: 30px; 
+    color: #484848;
+}
+.about-me-part p{
+    color: #2f2e2e;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.my-photo{
+    margin: 100px 100px 0 100px;
+}
+
                         /* second-section */
 
 .second-section{
